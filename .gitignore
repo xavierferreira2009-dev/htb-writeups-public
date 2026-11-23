@@ -1,0 +1,30 @@
+# Secrets and sensitive artifacts
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.ovpn
+credentials
+credentials.*
+**/credentials
+**/credentials.*
+creds.txt
+id_rsa
+id_rsa.*
+*.kdbx
+notes/private/
+
+# OS/editor/build junk
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
